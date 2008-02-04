@@ -19,6 +19,7 @@ BuildRequires:	automake
 BuildRequires:	gmpc-devel >= 0.15.5.0
 BuildRequires:	gtk+2-devel >= 2:2.4
 BuildRequires:	libglade2-devel
+BuildRequires:	libmpd-devel >= 0.15.0
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
