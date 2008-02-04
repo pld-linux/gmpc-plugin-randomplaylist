@@ -1,0 +1,12 @@
+diff -urN gmpc-random-playlist-0.15.5.0.new/src/Makefile.am gmpc-random-playlist-0.15.5.0/src/Makefile.am
+--- gmpc-random-playlist-0.15.5.0.new/src/Makefile.am	2007-11-29 14:57:04.000000000 +0100
++++ gmpc-random-playlist-0.15.5.0/src/Makefile.am	2008-02-04 10:42:10.887457101 +0100
+@@ -1,6 +1,6 @@
+-libdir=${prefix}/share/gmpc/plugins/
++pluginsdir=$(libdir)/gmpc/
+ 
+-lib_LTLIBRARIES = librandomplaylist.la
++plugins_LTLIBRARIES = librandomplaylist.la
+ 
+ librandomplaylist_la_SOURCES=\
+ 	main.c
