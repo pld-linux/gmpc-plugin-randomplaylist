@@ -33,7 +33,7 @@ przykład "Gatunek zawiera 'jazz' i wykonawca nie zawiera 'Jones'".
 
 %prep
 %setup -qn %{source_name}-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__libtoolize}
